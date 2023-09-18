@@ -13,7 +13,7 @@ public class Lingkaran30{
         phi = 3.14f;
         keliling = 2*phi*r;
         luas = phi*r*r;
-        System.out.println("Jadi Keliling dan Luas Lingkaran adalah");
+        System.out.println("Jadi Keliling dan Luas Lingkaran adalah : ");
         System.out.println("Keliling : " + (int) keliling);
         System.out.println("Luas : "+ (int) luas);
     }
