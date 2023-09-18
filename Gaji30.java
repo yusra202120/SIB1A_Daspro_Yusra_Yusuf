@@ -5,13 +5,13 @@ public class Gaji30{
         int jmlMasuk, JmlTdkMasuk, TotGaji;
         int gaji, potGaji;
 
-        System.out.print("Masukkan gaji anda perhari : ");
+        System.out.print("Masukkan gaji anda dalam sehari : ");
         gaji= input.nextInt();
-        System.out.print("Masukkan Potongan gaji anda : ");
+        System.out.print("Masukkan potongan gaji anda : ");
         potGaji= input.nextInt();
-        System.out.print("Masukkan Jumlah Hari masuk anda : ");
+        System.out.print("Masukkan jumlah hari masuk anda : ");
         jmlMasuk = input.nextInt();
-        System.out.print("Masukkan jumlah tidak masuk kerja anda : ");
+        System.out.print("Masukkan jumlah tidak masuk bekerja anda : ");
         JmlTdkMasuk= input.nextInt();
 
         TotGaji= (jmlMasuk*gaji) - (JmlTdkMasuk*potGaji);
